@@ -24,8 +24,8 @@ https://github.com/harisreedhar/Swap-Mukham/assets/46858047/d8f2389a-3078-43a1-9
 ## Installation
 ### CPU Install
 ````
-git clone https://github.com/harisreedhar/Swap-Mukham
-cd Swap-Mukham
+git clone https://github.com/SnikeGear/Swap-MukhamMx
+cd Swap-MukhamMx
 conda create -n swapmukham python=3.10 -y
 conda activate swapmukham
 pip install torch==2.0.0+cpu torchvision==0.15.1+cpu torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cpu
@@ -34,8 +34,8 @@ python app.py
 ````
 ### GPU Install (CUDA)
 ````
-git clone https://github.com/harisreedhar/Swap-Mukham
-cd Swap-Mukham
+git clone https://github.com/SnikeGear/Swap-MukhamMx
+cd Swap-MukhamMx
 conda create -n swapmukham python=3.10 -y
 conda activate swapmukham
 conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
